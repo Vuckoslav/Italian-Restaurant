@@ -1,0 +1,150 @@
+body, html {height: 100%;
+            background-color: black;}
+body,h1,h2,h3,h4,h5,h6 {font-family: "Amatic SC", sans-serif
+                       }
+.menu {display: none}
+#home {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../pictures/classic-pizza-edited.jpg");
+  min-height: 90%;
+  filter: grayscale(40%);
+  position: relative;
+
+  }
+  .bgimg .text-center {
+  	color: white;
+  	font-size: 140px;
+  	padding-top: 50px;
+  	font-weight: 500;
+  }
+  .bgimg .btn {
+  	font-size: 50px;
+  	color: white;
+  }
+  .bgimg .bottomleft {
+  	position: absolute;
+  	color: white;
+  	left: 16px;
+  	bottom: 8px;
+  	background-color: black;
+  	font-size: xx-large;
+  	padding-left: 10px;
+  	padding-right: 10px;
+
+  }
+  nav {
+  	font-size: xx-large;
+  	opacity: 0.8;
+  	
+
+  }
+  nav:hover {
+       background-color: black;
+       opacity: 1;
+  }
+  nav li  {
+  	padding: 10px;
+  }
+  
+  .menu-container {
+      background-color: black;
+      padding-top: 64px;
+      padding-bottom: 64px;
+
+    }
+  
+  .row {
+  	
+  	overflow: hidden;
+  	
+   }
+  .row a .tablink {
+  	font-size: 50px;
+  }
+  .row a .tablink:hover {
+      font-size: 80px;
+      text-decoration: none;
+  }
+  
+  #Pizza, #Pasta,#Starter {
+  	padding: 32px 52px;
+  	background-color: white;
+    /*border:3px solid darkgrey;*/
+  }
+  
+  .tablink {
+  	color: white;
+  }
+ 
+.text-muted {
+	font-size: 45px;
+
+}
+#Pizza div, #Pasta div, #Starter div {
+	font-size: 50px;
+}
+#About,#Contact {
+	padding: 64px 55px;
+	background-color: #8B5F5B;
+	font-size: 40px;
+	color: white;
+	
+
+}
+#Contact {
+	background-color: #6C7A81;
+}
+  .carousel-inner > .item >  img,
+  .carousel-inner > .item >  a >  img {
+    width: 100%;
+    margin: auto;
+    height: 500px;
+
+
+  }
+  
+#googlemap {
+    height: 600px;
+}
+#inputlg {
+  padding: 36px;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+footer {
+  background-color: black;
+  padding: 100px;
+  color: white;
+  font-size: 30px;
+}
+.fun-fact {
+    padding: 80px 0;
+    overflow: hidden;
+}
+
+.fun-fact .container {
+    position: relative;
+    z-index: 3;
+}
+
+.box_fun_fact {
+    text-align: center;
+}
+
+.icon_fun_fact {
+    font-size: 60px;
+    color: #fff;
+}
+
+.box_fun_fact h3 {
+    color: #fff;
+    font-size: 20px;
+}
+
+.box_fun_fact p {
+    font-size: 40px;
+    line-height: 1;
+    margin-bottom: 0;
+    color: #fff;
+}
